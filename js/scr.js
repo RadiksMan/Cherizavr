@@ -30,6 +30,7 @@ function oneHeightItems(){
         var height=0;
         block.removeAttr('style');
         block.each(function(){
+            console.log('123');
             if($(this).height()>height){
                 height=$(this).height();
             }
@@ -38,6 +39,8 @@ function oneHeightItems(){
     }
 
     oneHeight($('.quest-item'));
+
+
 }
 
 
@@ -50,12 +53,16 @@ $(document).ready(function(){
     itemRank();
     oneHeightItems();
 
+
+
 });
 
-$(document).resize(function(){
+$(window).resize(function(){
 
     rectangleItems($(".quest-item-img a"));
     oneHeightItems();
+
+
 });
 
 $(window).load(function(){
@@ -63,5 +70,4 @@ $(window).load(function(){
     rectangleItems($(".quest-item-img a"));
 
 
-    oneHeightItems();
 });
