@@ -30,6 +30,10 @@
 
 	<script src="js/bootstrap.min.js"></script>
 
+	<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.jscrollpane.min.js"></script>
+
 	<script src="js/scr.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" />
