@@ -16,11 +16,11 @@
                         <form action="">
                             <div class="login-input">
                                 <p>Логин / E-mail:</p>
-                                <input type="text" name="email">
+                                <input type="text" name="login">
                             </div>
                             <div class="login-input">
                                 <p>Пароль:</p>
-                                <input type="text" name="parol">
+                                <input type="password" name="password">
                             </div>
                             <div class="login-social">
                                 <p>Авторизироваться с помощью соц. сетей:</p>
@@ -43,19 +43,19 @@
                         <form action="">
                             <div class="login-input">
                                 <p>Имя (логин):</p>
-                                <input type="text" name="">
+                                <input type="text" name="login">
                             </div>
                             <div class="login-input">
                                 <p>E-mail:</p>
-                                <input type="text" name="">
+                                <input type="email" name="email">
                             </div>
                             <div class="login-input">
                                 <p>Телефон:</p>
-                                <input type="text" name="">
+                                <input type="number" name="tel">
                             </div>
                             <div class="login-input">
                                 <p>Пароль:</p>
-                                <input type="text" name="">
+                                <input type="password" name="password">
                             </div>
                             <input  type="submit" value="Зарегистрироваться" >
                         </form>
