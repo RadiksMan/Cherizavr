@@ -1,0 +1,8 @@
+.cfix:after{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display: block;content: '';}
+
+/* schedule */
+
+.schedule-main{padding: 5px 10px 5px 10px;background-color: #433d3a;min-width: 1024px;overflow-x:scroll;}
+.schedule-week{padding-bottom: 20px;border-bottom: 2px solid #5b5553;}
+
+/* /schedule */
