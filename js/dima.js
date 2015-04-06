@@ -38,5 +38,7 @@ $(document).resize(function(){
 $(window).load(function(){
 
 	oneHeightItems();
+
+	$('.footer_placeholder').height($('.footer').outerHeight());
 	
 });
