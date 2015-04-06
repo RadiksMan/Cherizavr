@@ -41,3 +41,17 @@
 .schedule-item table  tr td a:hover{color:#fff;text-decoration: none;}
 
 /* /schedule */
+
+/* ctext */
+
+.game-rules{background-color: #433d3a;padding:49px 25px 28px 40px;margin-bottom: 40px;}
+
+.ctext ol{counter-reset:li;padding:0;list-style:none;}
+.ctext ol li {position:relative;margin:0 0 20px 0px;font-size: 16px;color:#cccac9;line-height: 19px;text-indent:15px;}
+.ctext ol li:before {content:counter(li)'.';counter-increment:li;position:absolute;top:0px;left:-16px;color:#ffffff;}
+
+/* /ctext */
+
+@media screen and (max-width:767px){
+	.game-rules{padding:20px 15px 15px 15px;margin-bottom: 30px;}
+}
