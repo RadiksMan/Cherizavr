@@ -9,7 +9,7 @@
 				</div>
 			</div>
 			<div class="row quest-wrap">
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img new">
 							<a href="#">
@@ -29,7 +29,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img">
 							<a href="#">
@@ -49,7 +49,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img">
 							<a href="#">
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img">
 							<a href="#">
@@ -89,7 +89,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img">
 							<a href="#">
@@ -109,7 +109,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cok-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="quest-item">
 						<div class="quest-item-img new">
 							<a href="#">

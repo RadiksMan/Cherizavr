@@ -46,7 +46,7 @@ function oneHeightItems(){
 
 $(document).ready(function(){
 
-    rectangleItems($(".quest-item-img"));
+    rectangleItems($(".quest-item-img a"));
     itemRank();
     oneHeightItems();
 
@@ -54,12 +54,14 @@ $(document).ready(function(){
 
 $(document).resize(function(){
 
-    rectangleItems($(".quest-item-img"));
+    rectangleItems($(".quest-item-img a"));
     oneHeightItems();
 });
 
 $(window).load(function(){
 
-    rectangleItems($(".quest-item-img"));
+    rectangleItems($(".quest-item-img a"));
+
+
     oneHeightItems();
 });
