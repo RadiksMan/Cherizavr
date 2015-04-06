@@ -211,7 +211,28 @@ p{margin:0;}
 /*/reservation page*/
 
 
+/*game-room page*/
+.game-room{margin-bottom:40px;padding-top:30px;}
+.game-room .index-big-img{margin-bottom:14px;}
+.game-room .index-small-img{margin-bottom:28px;}
+.game-room-page-wrap{background-color: #433d3a;font-family: 'Roboto Condensed', sans-serif;font-size:16px;color: #cccac9;padding: 45px 40px 40px 40px;}
+.game-room-title{  padding: 0 0px 10px 0px}
+.game-room-title p{line-height: 20px;}
+.game-room-item{position: relative;padding-bottom: 20px;padding-top:20px;border-bottom:1px solid #585250;}
+.game-room-item-img{padding: 1px 20px 1px 14px;}
+.game-room-item-img img{height: 100%;width: 100%;border: 3px solid white;}
+.game-room-item:last-child{border:none;}
+.game-room-item-desc{margin-left: -2px;}
+.game-room-item-desc-title{color: #fff;font-size: 18px;padding-bottom: 2px;}
+.game-room-item-desc-text{padding-bottom: 30px;line-height: 19px;}
+.game-room-item-desc-cost{position: absolute;bottom: 12px;right: 0px;}
+.game-room-item-desc-cost span{font-size: 20px;color:#ee9f14;}
 
+.game-room-item>.row>div{position:static;padding: 0;}
+
+
+
+/*/game-room page*/
 
 
 
@@ -261,6 +282,9 @@ p{margin:0;}
 
     .log-page-two{margin: 0px;}
     .reservation-item-description{margin-left: 0;}
+    .game-room-item-desc {margin-left: 0px;}
+    .game-room-item-desc-title{padding-top: 5px;text-align: center;}
+    .game-room-title{padding-bottom: 25px;}
 }
 @media screen and (max-width:640px){}
 @media screen and (max-width:480px){
@@ -268,6 +292,7 @@ p{margin:0;}
 }
 
 @media screen and (max-width:320px){
+    .game-room-item{padding: 20px 20px;}
 }
 /* стили только для IE9 - IE10 */
 @media screen and (min-width:0\0) {
