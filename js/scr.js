@@ -38,10 +38,28 @@ function oneHeightItems(){
     }
 
     oneHeight($('.quest-item'));
+
+
 }
 
+function setEqualHeight(columns){
+    var tallestcolumn = 0;
+    columns.each( function(){
+    currentHeight = $(this).height();
+    if(currentHeight > tallestcolumn){
+        tallestcolumn = currentHeight;
+        }
+    });
+    columns.height(tallestcolumn);
+}
 
-
+function resWrapHeight(){
+    if($(window).width()>768){
+        setEqualHeight($('.res-wrap'));
+    }else{
+        $('.res-wrap').removeAttr('style');
+    }
+}
 
 
 $(document).ready(function(){
@@ -50,12 +68,17 @@ $(document).ready(function(){
     itemRank();
     oneHeightItems();
 
+    resWrapHeight();
+
 });
 
-$(document).resize(function(){
+$(window).resize(function(){
 
     rectangleItems($(".quest-item-img a"));
     oneHeightItems();
+
+    resWrapHeight();
+
 });
 
 $(window).load(function(){
@@ -63,5 +86,4 @@ $(window).load(function(){
     rectangleItems($(".quest-item-img a"));
 
 
-    oneHeightItems();
 });

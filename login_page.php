@@ -51,7 +51,7 @@
                             </div>
                             <div class="login-input">
                                 <p>Телефон:</p>
-                                <input type="number" name="tel">
+                                <input type="tel" name="tel">
                             </div>
                             <div class="login-input">
                                 <p>Пароль:</p>
