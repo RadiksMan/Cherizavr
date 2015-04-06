@@ -30,7 +30,6 @@ function oneHeightItems(){
         var height=0;
         block.removeAttr('style');
         block.each(function(){
-            console.log('123');
             if($(this).height()>height){
                 height=$(this).height();
             }
@@ -43,8 +42,24 @@ function oneHeightItems(){
 
 }
 
+function setEqualHeight(columns){
+    var tallestcolumn = 0;
+    columns.each( function(){
+    currentHeight = $(this).height();
+    if(currentHeight > tallestcolumn){
+        tallestcolumn = currentHeight;
+        }
+    });
+    columns.height(tallestcolumn);
+}
 
-
+function resWrapHeight(){
+    if($(window).width()>768){
+        setEqualHeight($('.res-wrap'));
+    }else{
+        $('.res-wrap').removeAttr('style');
+    }
+}
 
 
 $(document).ready(function(){
@@ -53,7 +68,7 @@ $(document).ready(function(){
     itemRank();
     oneHeightItems();
 
-
+    resWrapHeight();
 
 });
 
@@ -62,6 +77,7 @@ $(window).resize(function(){
     rectangleItems($(".quest-item-img a"));
     oneHeightItems();
 
+    resWrapHeight();
 
 });
 

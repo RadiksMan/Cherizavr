@@ -174,9 +174,10 @@ p{margin:0;}
 
 
 /*reservation page*/
-.reservation-page .reservation-item-img{background-color:#433f3d;}
+.reservation-page{padding-bottom: 40px;}
+.reservation-page .reservation-item-img{background-color:#433f3d;height:100%;width:100%;}
 .reservation-item-img img{width: 100%;height: 100%;}
-.reservation-item-description{background-color: #433f3d;padding: 20px;color: #fff;margin-left: -30px;box-sizing: border-box;}
+.reservation-item-description{background-color: #433f3d;padding: 20px;color: #fff;margin-left: -30px;height: 100%;}
 .reservation-title{font-weight: bold;font-size: 24px;padding-bottom: 5px;border-bottom: 1px solid #595351;}
 .reservation-kachka{padding-top: 10px;padding-bottom: 10px;}
 .reservation-page .quest-kachka{vertical-align:baseline;}
@@ -203,7 +204,7 @@ p{margin:0;}
 .res-money{line-height:18px;}
 .res-money p:first-child{font-size: 16px;}
 .res-money p span{font-size: 24px;color: #ffd400;}
-.reserve-button{text-align: center;}
+.reserve-button{text-align: center;padding-top: 25px;}
 .reserve-button a{display: inline-block;padding: 5px 23px;color: #ed2a1c;font-size: 18px;font-weight: bold;background-color: #fff;text-transform: uppercase;text-decoration: none;}
 .reserve-button a:hover{}
 /*/reservation page*/
