@@ -20,6 +20,10 @@ function oneHeightItems(){
 	}
 
 	oneHeight($('.quest-item'));
+	$('.seanses-items-wrap').each(function(){
+		var item=$(this).find('.seanse-block-wrap');
+		oneHeight(item);
+	});
 }
 
 function scrollpaneInit(){
@@ -43,42 +47,49 @@ function scrollpaneInit(){
 
 function tabsScedule(){
 
-	var spanWidth=$('.schedule-day.active .day-mount-text').width();
-	var spanLeft=$('.schedule-day.active .day-mount-text').position().left;
-	$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
-
-	$('.schedule-day').click(function(){
-		var index=$(this).index();
-		$('.schedule-day').removeClass('active');
-		$(this).addClass('active');
-		$('.schedule-item').removeClass('active');
-		$('.schedule-item').eq(index).addClass('active');
-		var spanWidth=$(this).find('.day-mount-text').width();
-		var spanLeft=$(this).find('.day-mount-text').position().left;
+	if($('.schedule-day').length>0){
+		var spanWidth=$('.schedule-day.active .day-mount-text').width();
+		var spanLeft=$('.schedule-day.active .day-mount-text').position().left;
 		$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
-	});
 
-	$('.schedule-day').hover(
-		function(){
-			spanWidth=$(this).find('.day-mount-text').width();
-			spanLeft=$(this).find('.day-mount-text').position().left;
+		$('.schedule-day').click(function(){
+			var index=$(this).index();
+			$('.schedule-day').removeClass('active');
+			$(this).addClass('active');
+			$('.schedule-item').removeClass('active');
+			$('.schedule-item').eq(index).addClass('active');
+			var spanWidth=$(this).find('.day-mount-text').width();
+			var spanLeft=$(this).find('.day-mount-text').position().left;
 			$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
-		},
-		function(){
-			spanWidth=$('.schedule-day.active .day-mount-text').width();
-			spanLeft=$('.schedule-day.active .day-mount-text').position().left;
-			$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
-		}
-	);
+		});
 
-
+		$('.schedule-day').hover(
+			function(){
+				spanWidth=$(this).find('.day-mount-text').width();
+				spanLeft=$(this).find('.day-mount-text').position().left;
+				$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
+			},
+			function(){
+				spanWidth=$('.schedule-day.active .day-mount-text').width();
+				spanLeft=$('.schedule-day.active .day-mount-text').position().left;
+				$('.week-pointer').css({'width':spanWidth+'px','left':spanLeft+'px'});
+			}
+		);
+	}
 }
+
+function remover(link, block){
+	$(link).click(function(){
+		$(this).parents(block).remove();
+	});
+};
 
 $(document).ready(function(){
 
 	itemRank();
 	oneHeightItems();
 	tabsScedule();
+	remover('.remove-seanse', '.seanses-item');
 
 });
 
