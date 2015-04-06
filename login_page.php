@@ -31,7 +31,7 @@
                                     <a href="#"><img src="images/login-soc-4.png" alt=""></a>
                                 </div>
                             </div>
-                            <div class="input" type="submit" placeholder="Войти"></div>
+                            <input type="submit" placeholder="Войти">
                         </form>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                                 <p>Пароль:</p>
                                 <input type="text">
                             </div>
-                            <div class="input" type="submit" placeholder="Зарегистрироваться"></div>
+                            <input  type="submit" placeholder="Зарегистрироваться">
                         </form>
                     </div>
                 </div>
