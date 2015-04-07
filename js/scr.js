@@ -72,6 +72,23 @@ function submitChekPass(){
     })
 }
 
+function theGameHeight(){
+    $('.thegame .img-slider ul').height($('.container-big-img>.container').height());
+}
+
+function theGameslide(){
+    $('.img-slider-minidots li').click(function(){
+        $('.img-slider-minidots li').removeClass('active');
+        $('.thegame .img-slider li').removeClass('active');
+
+        var equ = $(this).index();
+        $(this).eq(equ).addClass('active');
+        $('.thegame .img-slider li').eq(equ).addClass('active');
+        //theGameHeight();
+    });
+}
+
+
 
 $(document).ready(function(){
 
@@ -83,6 +100,10 @@ $(document).ready(function(){
 
     submitChekPass();
 
+    theGameHeight();
+
+    theGameslide()
+
 });
 
 $(window).resize(function(){
@@ -91,6 +112,7 @@ $(window).resize(function(){
     oneHeightItems();
 
     resWrapHeight();
+    theGameHeight();
 
 });
 

@@ -1,7 +1,13 @@
     <div class="thegame">
 
         <div class="container-big-img">
-
+            <div class="img-slider">
+                <ul>
+                    <li class="active"><img src="images/thegame-img-1.jpg" alt=""></li>
+                    <li><img src="images/thegame-img-2.jpg" alt=""></li>
+                    <li><img src="images/thegame-img-3.jpg" alt=""></li>
+                </ul>
+            </div>
         <div class="container">
             <div class="row thegame-relativ">
                 <div class="col-sm-5">
@@ -38,6 +44,13 @@
                     </div>
                 </div>
                 <div class="col-sm-5 col-sm-offset-2 thegame-map-wrap">
+                    <div class="img-slider-minidots">
+                        <ul>
+                            <li class="active"><img src="images/thegame-img-1.jpg" alt=""></li>
+                            <li><img src="images/thegame-img-2.jpg" alt=""></li>
+                            <li><img src="images/thegame-img-3.jpg" alt=""></li>
+                        </ul>
+                    </div>
                     <div class="thegame-map">
                         <img src="images/thegame-map.jpg"  alt="">
                     </div>
