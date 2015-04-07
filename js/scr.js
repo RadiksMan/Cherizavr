@@ -54,7 +54,7 @@ function setEqualHeight(columns){
 }
 
 function resWrapHeight(){
-    if($(window).width()>768){
+    if($(window).width()>=768){
         setEqualHeight($('.res-wrap'));
     }else{
         $('.res-wrap').removeAttr('style');

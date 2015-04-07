@@ -21,8 +21,8 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="user-name">user123</div>
+				<div class="col-sm-3 pers-cab-center">
+					<div class="user-name pers-cab-center">user123</div>
 					<div class="user-functions">
 						<div class="user-function">
 							<a href="#"><span class="icon redag-icon"></span>Редактировать профиль</a>
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 pers-cab-center">
 					<div class="user-button">
 						<a href="#" class="button white-button">Сеансы</a>
 					</div>
@@ -52,9 +52,7 @@
             <div class="row reservation-page-wrap seanses-item">
                 <div class="col-xs-12  col-sm-8 ">
                     <div class="seanse-block-wrap">
-                        <div class="reservation-item-img">
-                            <img src="images/reservation-item-img.jpg"  alt="">
-                        </div>
+                        <img src="images/reservation-item-img.jpg"  alt="">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 ">
@@ -97,9 +95,7 @@
             <div class="row reservation-page-wrap seanses-item">
                 <div class="col-xs-12  col-sm-8 ">
                     <div class="seanse-block-wrap">
-                        <div class="reservation-item-img">
-                            <img src="images/reservation-item-img.jpg"  alt="">
-                        </div>
+                        <img src="images/reservation-item-img.jpg"  alt="">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 ">
