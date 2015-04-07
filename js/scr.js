@@ -61,6 +61,17 @@ function resWrapHeight(){
     }
 }
 
+function submitChekPass(){
+    $('.personal-cabinet-redaction form').submit(function(){
+        var pass1 = $(".pass-1").val();
+        var pass2 = $(".pass-2").val();
+        if(pass1==pass2 || pass1==""){
+            $(".pass-1,.pass-2").addClass('error');
+            return false;
+        }
+    })
+}
+
 
 $(document).ready(function(){
 
@@ -69,6 +80,8 @@ $(document).ready(function(){
     oneHeightItems();
 
     resWrapHeight();
+
+    submitChekPass();
 
 });
 
