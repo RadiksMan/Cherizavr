@@ -8,10 +8,6 @@
                 <img src="images/kubik-img.png" alt="" />
             </div>
         </div>
-
-
-
-
         <div class="game-room-page-wrap">
             <div class="row">
                 <div class="col-xs-12">
