@@ -14,6 +14,8 @@
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
 
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
 
