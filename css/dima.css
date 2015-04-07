@@ -89,6 +89,9 @@
 
 /* /private-cabinet */
 
+.quest-map{height: 380px;}
+.quest-map-wrap{margin-bottom: 40px;padding-top: 7px;}
+
 @media screen and (max-width:767px){
 	.game-rules{padding:20px 15px 15px 15px;margin-bottom: 30px;}
 	.user-name, .user-function{margin-left: 0;}
