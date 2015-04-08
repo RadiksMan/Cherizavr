@@ -1,4 +1,4 @@
-<div class="login-page">
+<div class="main login-page">
     <div class="container">
         <div class="index-title">
             <div class="index-big-img">

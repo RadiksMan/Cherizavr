@@ -1,4 +1,4 @@
-    <div class="thegame">
+    <div class="main thegame">
 
         <div class="container-big-img">
             <div class="img-slider">
@@ -68,9 +68,6 @@
             <div class="index-title">
                 <div class="index-big-img">
                     <img src="images/schedule-img.png" alt="" />
-                </div>
-                <div class="index-small-img">
-                    <img src="images/datepicker-img.png" alt="" />
                 </div>
             </div>
             <div class="row schedule-main-row">

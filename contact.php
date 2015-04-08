@@ -1,4 +1,4 @@
-<div class="contact-page">
+<div class="main contact-page">
     <div class="container">
         <div class="index-title">
             <div class="index-big-img">

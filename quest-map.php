@@ -1,4 +1,4 @@
-<div class="main">
+<div class="main quest-map-page">
 	<div class="container">
 		<div class="index-title">
 			<div class="index-big-img">

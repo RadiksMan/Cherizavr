@@ -1,4 +1,4 @@
-<div class="reservation-page">
+<div class="main reservation-page">
     <div class="container">
         <div class="index-title">
             <div class="index-big-img">
@@ -11,9 +11,9 @@
         <div class="row reservation-page-wrap">
             <div class="col-xs-12  col-sm-8 ">
                 <div class="res-wrap">
-                    <div class="reservation-item-img">
+
                         <img src="images/reservation-item-img.jpg"  alt="">
-                    </div>
+
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 ">

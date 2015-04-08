@@ -10,10 +10,9 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
-
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
-
 	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
@@ -23,24 +22,27 @@
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.js" type="text/javascript"></script>
-
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
-
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
-
 	<script src="js/bootstrap.min.js"></script>
-
 	<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
 	<script src="js/jquery.mousewheel.js"></script>
 	<script src="js/jquery.jscrollpane.min.js"></script>
 
+	<script>
+
+	var mas=[
+	    [55.76, 37.49],
+	    [55.76, 37.56],
+	    [55.76, 37.55],
+	    [55.73, 37.60]
+	]
+	</script>
+
+
 	<script src="js/scr.js" type="text/javascript"></script>
-
-	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" />
-	<script src="js/dima.js" type="text/javascript"></script>
-
 	<!--[if lt IE 9]>
 		<script>
 		document.createElement('header');

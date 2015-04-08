@@ -1,4 +1,4 @@
-<div class="game-room">
+<div class="main game-room">
     <div class="container">
         <div class="index-title">
             <div class="index-big-img">

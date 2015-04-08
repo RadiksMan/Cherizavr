@@ -1,4 +1,4 @@
-<div class="corporative-page">
+<div class="main corporative-page">
     <div class="container">
         <div class="index-title">
             <div class="index-big-img">
@@ -11,9 +11,7 @@
         <div class="row corporative-page-wrap">
             <div class="col-xs-12  col-sm-8 ">
                 <div class="res-wrap">
-                    <div class="corporative-item-img">
                         <img src="images/corporative-item-img.jpg"  alt="">
-                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 ">
