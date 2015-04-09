@@ -80,8 +80,8 @@ p{margin:0;}
 /*wraper*/
 
 .first-block-wrap{position: relative;}
-.first-block-bg-img,.third-block-bg-img{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
-.first-block-bg-img img,.third-block-bg-img img {height: 100%;width: 100%;}
+.first-block-bg-img,.third-block-bg-img,.fourth-block-bg-img,.fifth-block-wrap{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+.first-block-bg-img img,.third-block-bg-img img,.fourth-block-bg-img img,.fifth-block-wrap img {height: 100%;width: 100%;}
 
 .zvonok{width: 205px;text-align: center;display: inline-block;padding-top: 43px;}
 .zvonok p:first-child{font-family: 'BebasNeue-Regular';color: #fff;font-size: 38px;}
@@ -108,13 +108,32 @@ p{margin:0;}
 .third-block-img{display: inline-block;vertical-align: middle;margin: 0px 12px;}
 
 
+.fourth-block-wrap{position: relative;}
+.fourth-block-wrap h5{font-size: 48px;font-family: 'BebasNeue-Regular';color: #000;padding: 90px 0px 90px 0px;}
 
 
+.slider-img-wrap{padding: 0px 37px;}
+.slider-item-wrap{padding: 0px 0px 43px 0px;margin: 0px 15px;}
+.slider-item{display: inline-block;margin: -5px;padding: 10px; /* IE10+ */
+background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc734', endColorstr='#748813',GradientType=0 );}
+.slider-item a{display: block;}
+.slick-prev, .slick-next {font-size: 0;line-height: 0;position: absolute;top: 46%;display: block;width: 32px;height: 32px;margin-top: -10px;padding: 0;cursor: pointer;color: transparent;border: none;outline: none;background: url(../images/prev-act.png) center center no-repeat;opacity: .7}
+.slick-prev:hover, .slick-next:hover {opacity: 1;}
+.slick-next{transform:rotate(180deg);}
+.slick-prev.slick-disabled{background: url(../images/prev-dis.png) center center no-repeat;transform: rotate(180deg);opacity: 0.8;;}
+.slick-next.slick-disabled{background: url(../images/prev-dis.png) center center no-repeat;transform: rotate(0deg);}
+
+.slick-slide>.slider-item-wrap:first-child{padding-top: 15px;}
 
 
+.fifth-block-wrap{position: relative;}
 
+.fifth-block-desc p {font-size: 48px;font-family: 'BebasNeue-Regular';color: #fff;line-height: 70px;}
+.fifth-block-desc p span{color: #bad43f;}
 
-
+.fifth-block-center-img{
+    text-align: center;}
+.fifth-block-center-img img {max-width: 230px;max-height: 160px;}
 
 
 
