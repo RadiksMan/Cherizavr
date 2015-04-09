@@ -33,7 +33,6 @@ function validForm(){
 };
 
 $(document).ready(function(){
-
     inputNums();
     validForm();
 });
