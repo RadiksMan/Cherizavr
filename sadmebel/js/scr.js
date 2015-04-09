@@ -73,26 +73,28 @@ function galleryHod(){
 }
 
 function sliderInit(){
-    $('.slider-img').slick({
-        dots: false,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 2,
-        prevArrow:'<button type="button" class="slick-prev"></button>',
-        nextArrow:'<button type="button" class="slick-next"></button>',
-        centerPadding: '0px',
-        respondTo:'window',
-        slidesToScroll: 2,
-        responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        }
-        ]
-});
+    if($('.slider-img').length>0){
+        $('.slider-img').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            prevArrow:'<button type="button" class="slick-prev"></button>',
+            nextArrow:'<button type="button" class="slick-next"></button>',
+            centerPadding: '0px',
+            respondTo:'window',
+            slidesToScroll: 2,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                  }
+                }
+            ]
+        });
+    }
 
 }
 
