@@ -72,24 +72,24 @@ function galleryHod(){
     });
 }
 
-function autoHeightItem(){
+function autoHeightItemIMG(){
     var maxHeight = 0;
-    $('.event-item .eventItem-title').each(function() {
+    $('.third-block-img').each(function() {
         console.log($(this).height());
         if ($(this).height() > maxHeight ) {
         maxHeight = $(this).height();
         }
     });
-    $('.event-item .eventItem-title').height(maxHeight);
+    $('.third-block-img').height(maxHeight);
 }
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-
+    //autoHeightItemIMG();
 });
 
 $(window).resize(function() {
-
+    //autoHeightItemIMG();
 
 });
 
