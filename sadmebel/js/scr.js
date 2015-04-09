@@ -9,7 +9,7 @@ function modernize() {
 		});
 	}
 }
-function oneHeightItems(){
+function oneHeightItems5block(){
 
 	function oneHeight(block){
 		var height=0;
@@ -22,7 +22,7 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight'));
+	oneHeight($('.oneHeight-5'));
 }
 
 
@@ -103,13 +103,14 @@ function sliderInit(){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-sliderInit();
-$(".fancybox").fancybox();
+    sliderInit();
+    $(".fancybox").fancybox();
+   // oneHeightItems5block();
 });
 
 $(window).resize(function() {
 
-
+    //oneHeightItems5block();
 });
 
 
