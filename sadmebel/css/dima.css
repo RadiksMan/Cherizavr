@@ -1,0 +1,52 @@
+
+.ctext h2{font-size: 48px;color:#6d8c00;text-transform: uppercase;margin-bottom: 76px;font-family: 'BebasNeue-Regular', sans-serif;line-height: 48px;margin-top: 0;}
+.ctext h6{font-size: 18px;color:#000000;margin-bottom: 10px;text-transform: uppercase;}
+.ctext p{font-size: 18px;color:#000000;line-height: 24px;}
+.ctext p b{font-weight: 600;}
+.ctext p span{font-family: 'BebasNeue-Regular',sans-serif;font-size: 36px;color:#6d8c00;}
+.ctext p span span{font-family: 'BebasNeue', sans-serif;font-weight: 300;}
+
+.cfix:after{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display: block;content: '';}
+
+input:focus, textarea:focus{outline: none!important;}
+input[type="text"],input[type="email"],textarea{width:100%;background-color:#fff;border:1px solid #aaa9a9;border-radius: 4px;box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,.40);-webkit-box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,.40);}
+input[type="text"].error,input[type="email"].error,textarea.error{border-color: #d30707;box-shadow: inset 2px 2px 5px 0 rgba(211,7,7,.40);-webkit-box-shadow: inset 2px 2px 5px 0 rgba(211,7,7,.40);}
+input[type="text"],input[type="email"]{font-size: 14px;height: 38px;line-height: 38px;padding: 0 10px 0 10px;}
+textarea{padding: 10px 10px 10px 10px; font-size:14px;line-height: 18px;resize:none;height: 80px;}
+
+.form-row{margin-bottom: 23px;}
+.form-row.submit{margin-top: -10px;}
+.form-row:last-child{margin-bottom: 0;}
+.form-item-title{font-family: 'BebasNeue-Regular', sans-serif;color: #fff;font-size: 24px;text-transform: uppercase;margin-bottom: 5px;margin-left: 2px;}
+.btn.btn-submit{background-color: #be2c31;height: 39px;line-height: 39px;padding: 0 25px 0 25px;text-transform: uppercase;font-size: 14px;font-weight: 300;border-bottom: 1px solid #7f1215;border-radius: 3px;color:#fff;}
+.btn.btn-submit:hover{background-color: #7f1215;border-color: transparent;}
+
+/* dostavka */
+
+.dostavka-wrap{padding: 79px 0 79px 0;}
+
+/* /dostavka */
+
+/* contacts */
+
+.contacts-wrap{padding: 81px 0 77px 0;}
+.contacts-form{margin-bottom: 50px;}
+
+.contats-form-header{margin-bottom: 85px;}
+.ctext.contats-form-header{margin-bottom: 0;}
+.contacs-form-main{border:1px solid #819c1e;padding: 31px 20px 20px 20px;
+background: #a3c813; /* Old browsers */
+background: -moz-linear-gradient(top, #a3c813 0%, #6c8800 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3c813), color-stop(100%,#6c8800)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #a3c813 0%,#6c8800 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #a3c813 0%,#6c8800 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #a3c813 0%,#6c8800 100%); /* IE10+ */
+background: linear-gradient(to bottom, #a3c813 0%,#6c8800 100%); /* W3C */}
+
+
+/* /contacts */
+
+@media screen and (max-width:767px){
+	.kapchta-img{text-align: center;margin-bottom: 10px;padding-top:10px;}
+	.form-submit-wrap{text-align: center;}
+}
