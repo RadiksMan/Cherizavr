@@ -126,7 +126,7 @@ background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1)
 .slick-slide>.slider-item-wrap:first-child{padding-top: 15px;}
 
 
-.fifth-block-wrap{position: relative;padding: 55px 0px 12px 0px;}
+.fifth-block-wrap{position: relative;padding: 55px 0px 56px 0px;}
 
 .fifth-block-desc p {font-size: 48px;font-family: 'BebasNeue-Regular';color: #fff;line-height: 70px;}
 .fifth-block-desc p span{color: #bad43f;}
@@ -145,11 +145,30 @@ background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1)
 .fifth-block-center-forma p:first-child{text-transform: uppercase;padding-top: 15px;}
 
 .fifth-block-center-forma-wrap{display: inline-block;border: 5px solid rgba(162, 187, 45, 0.6);border-radius: 3px;}
-.fifth-block-desc{display: inline-block;vertical-align: middle;padding-bottom: 49px;margin-left:-1px;}
+.fifth-block-desc{display: inline-block;vertical-align: middle;padding-bottom: 49px;margin-left:-2px;}
+.fifth-block-desc-wrap{vertical-align: top;  margin-right: 55px; margin-top: 40px;}
+.fifth-block-center-wrap{vertical-align: bottom;margin-right: 57px;}
+
+.fifth-block-oneHeight{display: inline-block;}
 
 
 
-.oneHeight-5{display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*@media screen and (min-width: 1200px){
     .container {
     width: 960px;
@@ -178,6 +197,10 @@ background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1)
 }
 @media screen and (max-width:992px){
     .title-logo-text {padding: 39px 0px 76px 0px;}
+    .fifth-block-desc-wrap {margin-right: -1px;}
+    .fifth-block-center-wrap {margin-right: 13px;}
+    .fifth-block-center-forma {max-width: 233px;}
+    .fifth-block-desc p{font-size: 34px;}
 }
 @media screen and (max-width:767px){
     .logo-img{text-align: center;}
@@ -195,6 +218,10 @@ background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1)
     .third-block-desc{padding-top: 19px;padding-bottom: 0px;}
     .third-block-wrap h5 {padding-top: 35px;padding-bottom: 16px;font-size: 38px;}
     .third-block-desc p {font-size: 13px;margin-bottom: 7px;}
+
+    .fifth-block-oneHeight{display: block;}
+    .fifth-block-desc-wrap {margin-top: 0px;text-align: center;}
+    .fifth-block-oneHeight{text-align: center;}
 }
 @media screen and (max-width:640px){
     .title-logo-text {padding: 31px 0px 24px 0px;}
