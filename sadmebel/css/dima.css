@@ -94,4 +94,9 @@ background: linear-gradient(to bottom, #a3c814 0%,#6b8a00 100%); /* W3C */}
 @media screen and (max-width:767px){
 	.kapchta-img{text-align: center;margin-bottom: 10px;padding-top:10px;}
 	.form-submit-wrap{text-align: center;}
+	
+	.our-clients-blocks{margin-bottom: 40px;}
+	.our-clients-blocks .col-sm-4{margin-bottom: 25px;}
+	.green-bottom-form-main .form-row:last-child>div{margin-bottom: 25px;}
+	.green-bottom-form-main .form-row:last-child>div:last-child{margin-bottom: 0;}
 }
