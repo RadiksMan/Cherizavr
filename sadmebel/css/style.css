@@ -126,20 +126,16 @@ p{margin:0;}
 
 .slick-slide>.slider-item-wrap:first-child{padding-top: 15px;}
 
-
 .fifth-block-wrap{position: relative;padding: 55px 0px 56px 0px;}
-
 .fifth-block-desc p {font-size: 48px;font-family: 'BebasNeue-Regular';color: #fff;line-height: 70px;}
 .fifth-block-desc p span{color: #bad43f;}
-
 .fifth-block-center-img{
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
     padding-bottom: 71px;}
 .fifth-block-center-img img {max-width: 230px;max-height: 160px;}
-
-.fifth-block-center-forma input{width: 200px;margin-bottom: 12px;}
+.fifth-block-center-forma input{width: 200px;}
 .fifth-block-center-forma input[type=submit]{margin-top: 8px;}
 .fifth-block-center-forma{text-align: center;padding: 15px;background: rgb(173,199,52);background: -moz-linear-gradient(top,  rgba(173,199,52,1) 0%, rgba(116,136,19,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(173,199,52,1)), color-stop(100%,rgba(116,136,19,1)));background: -webkit-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: -o-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: -ms-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc734', endColorstr='#748813',GradientType=0 );border: 1px solid #86992e;max-width: 260px;}
 .fifth-block-center-forma p{color: #fff;font-family: "Open sans";font-size: 18px;margin-bottom: 16px;}
@@ -154,26 +150,17 @@ p{margin:0;}
 .youtube-frame{display: inline-block;margin: -5px;padding: 10px;background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc734', endColorstr='#748813',GradientType=0 );}
 .youtube-wrap{}
 .our-clients>h5{font-size: 48px;font-family: 'BebasNeue-Regular';color: #000;padding-top: 88px;padding-bottom: 82px;}
-
 .our-clients a{display: block;}
-
 .seventh-block-wrap{position: relative;padding: 54px 0px 57px 0px;}
-
 .seventh-block-center-description h5{font-size: 48px;font-family: 'BebasNeue-Regular';color: #fff;padding-bottom: 10px;}
 .seventh-block-center-description p{color: #fff;font-family: "Open sans";font-size: 18px;line-height: 28px;padding-top: 7px;}
-.seventh-block-center-description p span{color: #acc634;font-size: 48px;font-family: 'BebasNeue-Regular';;}
-
+.seventh-block-center-description p span{color: #acc634;font-size: 48px;font-family: 'BebasNeue-Regular';}
 .fifth-block-center-forma-wrap-main,.fifth-block-center-wrap{text-align: center;}
 .fifth-block-oneHeight {width: 33%;display: inline-block;}
-
-
 .seventh-block-wrap .fifth-block-oneHeight{vertical-align: middle;}
 .seventh-block-wrap .fifth-block-center-img {padding-bottom: 0px;}
-
 .seventh-block-center-description{padding-bottom: 20px;}
-
 .seventh-block-wrap .fifth-block-oneHeight{text-align: center;}
-
 .map-footer-wrap{position: relative;}
 .map-footer{position: absolute;top: 0px;left: 0;right: 0}
 
@@ -182,7 +169,20 @@ p{margin:0;}
 .our-production{position: absolute;top: 64px;left: 50%;transform: translate(-50%,0%);font-size: 30px;font-family: 'BebasNeue-Regular';color: #fff;padding: 7px 12px 7px 12px;background: rgb(173,199,52);background: -moz-linear-gradient(top,  rgba(173,199,52,1) 0%, rgba(116,136,19,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(173,199,52,1)), color-stop(100%,rgba(116,136,19,1)));background: -webkit-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: -o-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: -ms-linear-gradient(top,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc734', endColorstr='#748813',GradientType=0 );border-top: 1px solid #86992e;border-radius: 4px;-webkit-box-shadow: 3px 7px 9px 2px rgba(0,0,0,0.4);box-shadow: 3px 7px 9px 2px rgba(0,0,0,0.4);text-align: center;}
 .our-production:after{content: "";position: absolute;border: 6px solid transparent;    border-top: 19px solid rgb(116, 136, 19);top: 44px;left: 14px;}
 
-
+.karta-tovara-wrap{padding-top: 80px;}
+.karta-tovara-title{color: #768b13;font-size: 48px;font-family: 'BebasNeue-Regular';padding-bottom: 23px;}
+.karta-tovara-description{font-family: "Open sans";font-size: 18px;padding-bottom: 19px;}
+.karta-tovara-table{padding-bottom: 0px;}
+.karta-tovara-table table{width: 100%;}
+.karta-tovara-table table th{color: #768b13;font-size: 18px;font-family: "Open sans";font-weight: 500;padding-bottom: 21px;background: url(../images/kart-tov-line.png) bottom left repeat-x;}
+.karta-tovara-table table td{color: #000;font-size: 18px;font-family: "Open sans";font-weight: 500;position: relative;padding: 9px 0px 9px 0px;}
+.karta-tovara-table table tr{position: relative;background: url(../images/kart-tov-line.png) bottom left repeat-x;}
+.karta-tovara-table table tr:last-child{background: none;}
+.karta-tovara-item-img{display: inline-block;margin: -5px;padding: 10px;background: linear-gradient(to bottom,  rgba(173,199,52,1) 0%,rgba(116,136,19,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adc734', endColorstr='#748813',GradientType=0 );}
+.karta-tovara-item-img-wrap{text-align: center;padding-top: 41px;}
+.title-text-bottom{padding-top: 40px;text-align: center;padding-bottom: 7px;}
+.title-text-bottom h5{font-size: 61px;color: #768b13;font-family: 'BebasNeue-Regular';}
+.karta-tovara-wrap .green-bottom-form {padding: 91px 0 72px 20px;}
 
 
 
@@ -237,6 +237,8 @@ p{margin:0;}
     .fifth-block-desc p{font-size: 34px;}
     .fifth-block-oneHeight{text-align: center;}
     .seventh-block-center-description{padding-bottom: 35px;}
+
+    .karta-tovara-table table td,.karta-tovara-table table th{font-size: 14px;}
 }
 @media screen and (max-width:767px){
     .logo-img{text-align: center;}
@@ -269,7 +271,9 @@ p{margin:0;}
     .third-izd .item-izd{display: block;padding: 13px 44px;}
 
     .third-block-img {margin: 6px 0px;display: block;}
-
+    .karta-tovara-title{text-align: center;}
+    .karta-tovara-table table td,.karta-tovara-table table th{font-size: 12px;}
+    .title-text-bottom h5{font-size: 35px;}
 }
 @media screen and (max-width:480px){
     .title-logo-text>h4 {font-size: 50px;margin-bottom: 16px;}
