@@ -82,6 +82,16 @@ background: linear-gradient(to bottom, #a3c814 0%,#6b8a00 100%); /* W3C */}
 .green-form-bottom-text{font-family: 'BebasNeue-Regular',sans-serif;font-size: 30px;color: #fff;text-align: center;margin-bottom: 35px;}
 .green-form-bottom-text span{font-size: 38px;}
 .green-form-bottom-text span span{font-family: 'BebasNeue', sans-serif;font-weight: 300;}
+.some-text-spec-wrap-to-it{font-family: 'BebasNeue-Regular',sans-serif;font-size: 48px;color:#fff;text-transform: uppercase;}
+.some-text-spec-wrap-to-it p{margin-bottom: 15px;}
+.some-text-spec-wrap-to-it p span{color:#a1c512;}
+.some-text-spec-wrap-to-it p:first-child{margin-left: 0;}
+.some-text-spec-wrap-to-it p:nth-child(2){margin-left: 15%;}
+.some-text-spec-wrap-to-it p:nth-child(3){margin-left: 29%;}
+.some-text-spec-wrap-to-it p:nth-child(4){margin-left: 49%;margin-bottom: 0;}
+.our-clients-form-to-it{text-transform: none!important;}
+.our-clients-form-wrap-to-it .form-row{margin-bottom: 12px;}
+.our-clients-form-wrap-to-it .form-row input{margin-bottom: 0;}
 
 ::-webkit-input-placeholder {font-weight: 300;font-style: italic;font-style: 14px;color:#929292;text-transform: uppercase;}
 :-moz-placeholder {font-weight: 300;font-style: italic;font-style: 14px;color:#929292;text-transform: uppercase;}
@@ -91,6 +101,12 @@ background: linear-gradient(to bottom, #a3c814 0%,#6b8a00 100%); /* W3C */}
 
 /* /our-works */
 
+@media screen and (max-width:992px){
+	.some-text-spec-wrap-to-it p:nth-child(2){margin-left: 15%;}
+	.some-text-spec-wrap-to-it p:nth-child(3){margin-left: 20%;}
+	.some-text-spec-wrap-to-it p:nth-child(4){margin-left: 40%;}
+}
+
 @media screen and (max-width:767px){
 	.kapchta-img{text-align: center;margin-bottom: 10px;padding-top:10px;}
 	.form-submit-wrap{text-align: center;}
@@ -99,4 +115,11 @@ background: linear-gradient(to bottom, #a3c814 0%,#6b8a00 100%); /* W3C */}
 	.our-clients-blocks .col-sm-4{margin-bottom: 25px;}
 	.green-bottom-form-main .form-row:last-child>div{margin-bottom: 25px;}
 	.green-bottom-form-main .form-row:last-child>div:last-child{margin-bottom: 0;}
+	
+	.some-text-spec-wrap-to-it{text-align: center;}
+	.some-text-spec-wrap-to-it p:nth-child(2){margin-left: 0%;}
+	.some-text-spec-wrap-to-it p:nth-child(3){margin-left: 0%;}
+	.some-text-spec-wrap-to-it p:nth-child(4){margin-left: 0%;margin-bottom: 25px;}
+
+	.our-clients-blocks>.row .col-sm-4{text-align: center;}
 }
