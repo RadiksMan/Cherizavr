@@ -115,19 +115,36 @@ background: -o-linear-gradient(top, #ffffff 0%,#e2e2e2 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top, #ffffff 0%,#e2e2e2 100%); /* IE10+ */
 background: linear-gradient(to bottom, #ffffff 0%,#e2e2e2 100%); /* W3C */
 }
-.our-delivery-item{width: 415px;margin: 0 auto;}
+.our-delivery-item{width: 100%;margin: 0 auto;max-width: 421px;}
 .our-delivery-blocks-wrap .col-sm-6{display: inline-block;float:none;margin-left: -4px;margin-bottom: 63px;}
 .our-delivery-blocks-wrap .col-sm-6:nth-child(2n+1){margin-left: 0;}
 
 .green-bottom-form.spec-green-form{padding: 92px 0 94px 0;}
-.spec-green-form .green-bottom-form-main{margin-bottom: 0;}
+.spec-green-form .green-bottom-form-main, .spec-green-form-again .green-bottom-form-main{margin-bottom: 0;}
 
 /* /our-delivery */
+
+/* our-delivery-again */
+
+.our-delivery-blocks-wrap.again .our-delivery-text{font-size: 14px;}
+.our-delivery-blocks-wrap.again .our-delivery-item{width: 100%;max-width: 350px;}
+.our-delivery-blocks-wrap.again .col-sm-6{margin-bottom: 36px;}
+.our-delivery-blocks-wrap.again .col-sm-6:nth-child(2n+1){margin-left: -4px;}
+.our-delivery-blocks-wrap.again .col-sm-6:nth-child(3n+1){margin-left: 0;}
+
+.green-bottom-form.spec-green-form-again{padding: 82px 0 94px 0;}
+.spec-green-form-again-title{text-align: center;font-family: 'BebasNeue-Regular',sans-serif;color: #000;text-transform: uppercase;font-size: 30px;margin-bottom: 33px;}
+
+/* /our-delivery-again */
 
 @media screen and (max-width:992px){
 	.some-text-spec-wrap-to-it p:nth-child(2){margin-left: 15%;}
 	.some-text-spec-wrap-to-it p:nth-child(3){margin-left: 20%;}
 	.some-text-spec-wrap-to-it p:nth-child(4){margin-left: 40%;}
+	
+	.our-delivery-blocks-wrap.again .col-sm-6{margin-bottom: 63px;}
+	.our-delivery-blocks-wrap.again .col-sm-6:nth-child(2n+1){margin-left: 0;}
+	.our-delivery-blocks-wrap.again .col-sm-6:nth-child(3n+1){margin-left: -4px;}
 }
 
 @media screen and (max-width:767px){
@@ -147,7 +164,9 @@ background: linear-gradient(to bottom, #ffffff 0%,#e2e2e2 100%); /* W3C */
 	.our-clients-blocks>.row .col-sm-4{text-align: center;}
 
 	.our-delivery-blocks-wrap .col-sm-6{width: 100%;margin-left: 0;}
+
+	.our-delivery-blocks-wrap.again .our-delivery-item{max-width: 421px;}
 }
 @media screen and (max-width:480px){
-	.our-delivery-item{width: 260px;}
+	.our-delivery-item{max-width: 260px;}
 }
