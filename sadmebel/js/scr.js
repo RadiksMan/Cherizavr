@@ -10,56 +10,33 @@ function modernize() {
 	}
 }
 function AnimatedMainPage(){
-
-    //$("#ex1 .post").addClass('animated zoomIn');
-
     var h = $(window).height();
     $(window).scroll(function(){
-        if ( ($(this).scrollTop()+h) >= $(".first-izd").offset().top) {
+        if ( ($(this).scrollTop()+h) >= $(".first-izd").offset().top+300) {
             $(".first-izd .slider-main-wrap").css({visibility:"visible"});
-            $(".first-izd .slider-main-wrap").eq(0).addClass('animated bounceInRight');
-            $(".first-izd .slider-main-wrap").eq(1).addClass('animated bounceInRight');
-            $(".first-izd .slider-main-wrap").eq(2).addClass('animated bounceInRight');
+            $(".first-izd .slider-main-wrap").each(function(){
+                $(this).addClass('animated bounceInRight');
+             })
         }
-        if ( ($(this).scrollTop()+h) >= $(".second-izd").offset().top) {
+        if ( ($(this).scrollTop()+h) >= $(".second-izd").offset().top+300) {
              $(".second-izd .slider-main-wrap").css({visibility:"visible"});
-             $(".second-izd .slider-main-wrap").eq(0).addClass('animated bounceInLeft');
-             $(".second-izd .slider-main-wrap").eq(1).addClass('animated bounceInLeft');
-             $(".second-izd .slider-main-wrap").eq(2).addClass('animated bounceInLeft');
+             $(".second-izd .slider-main-wrap").each(function(){
+                $(this).addClass('animated bounceInLeft');
+             })
         }
-        if ( ($(this).scrollTop()+h) >= $(".third-izd").offset().top) {
+        if ( ($(this).scrollTop()+h) >= $(".third-izd").offset().top+300) {
              $(".third-izd .slider-main-wrap").css({visibility:"visible"});
-             $(".third-izd .slider-main-wrap").eq(0).addClass('animated bounceInUp');
-             $(".third-izd .slider-main-wrap").eq(1).addClass('animated bounceInUp');
-             $(".third-izd .slider-main-wrap").eq(2).addClass('animated bounceInUp');
-             $(".third-izd .slider-main-wrap").eq(3).addClass('animated bounceInUp');
-             $(".third-izd .slider-main-wrap").eq(4).addClass('animated bounceInUp');
-             $(".third-izd .slider-main-wrap").eq(5).addClass('animated bounceInUp');
+             $(".third-izd .slider-main-wrap").each(function(){
+                $(this).addClass('animated bounceInUp');
+             })
         }
-
-        // if ( $(this).scrollTop() == 0 ) {
-        //     $("#ex2 .post, #ex3 .post, #ex4 .post").each(function(){
-        //         if ( $(this).hasClass('last') ) {
-        //             $(this).removeClass().addClass('post last');
-        //         } else {
-        //             $(this).removeClass().addClass('post');
-        //         }
-        //         $(this).css({visibility:"hidden"});
-        //     });
-        // }
+        if ( ($(this).scrollTop()+h) >= $(".our-clients h5").offset().top+300) {
+             $(".our-clients .slider-main-wrap").css({visibility:"visible"});
+             $(".our-clients .slider-main-wrap").each(function(){
+                $(this).addClass('animated fadeInUp');
+             })
+        }
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -73,8 +50,6 @@ function fancyInit(){
 		}
 	});
 };
-
-
 function galleryHod(){
     $(".fancybox-gallery").click(function(){
         var block = $(this).attr('href');
@@ -108,18 +83,48 @@ function sliderInit(){
     }
 
 }
+function inputNums(){
+    $(".input-number").keydown(function (e) {
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+            (e.keyCode == 65 && e.ctrlKey === true) ||
+            (e.keyCode >= 35 && e.keyCode <= 39)) {
+                 return;
+        }
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+};
 
-
-
-
-
+function validForm(){
+    $('form').each(function(){
+        $(this).submit(function(){
+            var point=1;
+            $(this).find('.form-field').each(function(){
+                var value=$(this).val();
+                if(value==''){
+                    point=0;
+                    $(this).addClass('error');
+                }
+                else{
+                    $(this).removeClass('error');
+                }
+            });
+            if(point==0){
+                return false;
+            }
+        });
+    });
+};
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
     sliderInit();
     $(".fancybox").fancybox();
-
     AnimatedMainPage();
+
+    inputNums();
+    validForm();
 
 });
 
