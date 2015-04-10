@@ -14,7 +14,7 @@ input[type="text"].error,input[type="email"].error,textarea.error{border-color: 
 input[type="text"],input[type="email"]{font-size: 14px;height: 38px;line-height: 38px;padding: 0 10px 0 10px;}
 textarea{padding: 10px 10px 10px 10px; font-size:14px;line-height: 18px;resize:none;height: 80px;}
 
-.form-row{margin-bottom: 23px;}
+.form-row{margin-bottom: 12px;}
 .form-row.submit{margin-top: -10px;}
 .form-row:last-child{margin-bottom: 0;}
 .form-item-title{font-family: 'BebasNeue-Regular', sans-serif;color: #fff;font-size: 24px;text-transform: uppercase;margin-bottom: 5px;margin-left: 2px;}
